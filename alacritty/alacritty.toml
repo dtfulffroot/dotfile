@@ -1,17 +1,10 @@
-import = [
-  # uncomment the flavour you want below:
-  #"~/.config/alacritty/catppuccin/catppuccin-mocha.toml"
-  "~/.config/alacritty/catppuccin/catppuccin-macchiato.toml"
-  #"~/.config/alacritty/catppuccin/catppuccin-frappe.toml"
-  # "~/.config/alacritty/catppuccin/catppuccin-latte.toml"
-]
 
 
 [colors]
 draw_bold_text_with_bright_colors = true
 
 [font]
-size = 15.0
+size = 14.0
 
 [font.bold]
 family = "JetBrainsMonoNL Nerd Font"
@@ -58,7 +51,7 @@ multiplier = 3
 [window]
 decorations = "full"
 dynamic_padding = false
-opacity = 0.95
+opacity = 0.9
 startup_mode = "Maximized"
 
 [window.dimensions]
@@ -68,3 +61,12 @@ lines = 30
 [window.padding]
 x = 0
 y = 0
+
+[general]
+import = [
+  # uncomment the flavour you want below:
+  # "~/.config/alacritty/catppuccin/catppuccin-mocha.toml"
+  # "~/.config/alacritty/catppuccin/catppuccin-macchiato.toml"
+  #"~/.config/alacritty/catppuccin/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin/catppuccin-latte.toml"
+]
